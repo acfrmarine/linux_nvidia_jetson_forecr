@@ -77,10 +77,10 @@ agx_orin_devkit = BoardDefinition('Jetson AGX Orin devkit', '0x23', '3701', [
 ])
 
 nx_devkit = BoardDefinition('Jetson Xavier NX devkit', '0x19', '3668', [
-    Configuration('DevKit', 'tegra194-p3668-0000-p3509-0000-avt.dtb', '0000'),
-    Configuration('DevKit', 'tegra194-p3668-0001-p3509-0000-avt.dtb', '0001'),
+    Configuration('DevKit', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0000'),
+    Configuration('DevKit', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0001'),
     #NX 16GB
-    Configuration('DevKit', 'tegra194-p3668-0001-p3509-0000-avt.dtb', '0003'),
+    Configuration('DevKit', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0003'),
 
     #Configuration('Auvidea JNX30 (beta)', 'tegra194-p3668-all-p3509-0000-auvidea-jnx30.dtb', '0000', beta=True),
     #Configuration('Auvidea JNX30 (beta)', 'tegra194-p3668-all-p3509-0000-auvidea-jnx30.dtb', '0001', beta=True),
@@ -92,10 +92,10 @@ nx_devkit = BoardDefinition('Jetson Xavier NX devkit', '0x19', '3668', [
     #NX 16GB
     #Configuration('Auvidea JNX30+38491 FPD-Link (beta)', 'tegra194-p3668-all-p3509-0000-auvidea-jnx30-38491.dtb', '0003', beta=True),
 
-    Configuration('None', 'tegra194-p3668-0000-p3509-0000.dtb', '0000'),
-    Configuration('None', 'tegra194-p3668-0001-p3509-0000.dtb', '0001'),
+    Configuration('None', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0000'),
+    Configuration('None', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0001'),
     #NX 16GB
-    Configuration('None', 'tegra194-p3668-0001-p3509-0000.dtb', '0003'),
+    Configuration('None', 'tegra194-p3668-dsboard-nx2-0000-rev121.dtb', '0003'),
 ])
 
 boards = [

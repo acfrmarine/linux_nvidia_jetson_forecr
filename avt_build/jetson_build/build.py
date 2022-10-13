@@ -64,7 +64,7 @@ def build(args):
     t.execute(['make', '-j', str(jobs), f'O={kernel_build_dir}', target], cwd=kernel_source_dir(args), env=env)
 
 
-  make('Kernel Config',     'tegra_avcamera_defconfig', 1)
+  make('Kernel Config',     'dsboard_nx2_defconfig', 1)
   make('Kernel Image',      'Image')
   make('Kernel Modules',    'modules')
   make('Device Tree Files', 'dtbs')
